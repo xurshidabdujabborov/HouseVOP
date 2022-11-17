@@ -1,0 +1,37 @@
+.video{
+    width: 100%;
+    background: linear-gradient(180deg, #242B33 11.98%);
+    .videoPlayer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        .md(margin-top , 50px);
+        video {
+          width: 100%;
+        }
+        .fa {
+          position: absolute;
+          top: 50%;
+          left: 52%;
+          transform: translate(-50%, -50%);
+          width: 100px;
+          height: 100px;
+          font-size: 30px;
+          color: white;
+          border-radius: 50%;
+          background: rgba(212, 193, 127, 1);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .fa:hover{
+          cursor: pointer;
+          transition: 1s;
+          
+        }
+        .fa-pause {
+          display: none;
+        }
+      }
+}

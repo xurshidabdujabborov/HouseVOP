@@ -1,0 +1,88 @@
+.center {
+    width: 100%;
+    background-image: url("../img/Rectangle\ 2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    img {
+        position: relative;
+        width: 100%;
+    }
+
+    .left {
+        margin: 180px 0px;
+
+        p.text {
+            margin-top: 50px;
+        }
+    }
+
+    form {
+        margin: 240px 0px;
+        .md-block({
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        });
+        input {
+            width: 180px;
+            height: 50px;
+            border: none;
+            text-align: center;
+            margin: 0px 30px;
+            background-color: rgb(145, 144, 144);
+            .md-block({
+            margin: 20px auto;
+            })
+        }
+
+        input::placeholder {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 27px;
+            color: black;
+        }
+
+        input:focus {
+            outline: none;
+        }
+
+        .flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 50px;
+            .md-block({
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                });
+            p.text {
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 16px;
+                color: white;
+                text-align: center;
+            }
+
+            button {
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 27px;
+                color: white;
+                padding: 12px 50px;
+                background: #D4C17F;
+                border: none;
+                .md-block({
+                    margin: 20px 0px;
+                })
+            }
+            button:hover{
+                cursor: pointer;
+                transition: 1s;
+                background-color: black;
+            }
+        }
+    }
+}

@@ -1,0 +1,682 @@
+header {
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(11.98%, #242B33));
+  background: -o-linear-gradient(top, #242B33 11.98%);
+  background: linear-gradient(180deg, #242B33 11.98%);
+}
+
+header nav {
+  padding: 40px 0px;
+}
+
+header nav .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+header nav .img p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  margin-top: 15px;
+  color: white;
+  text-align: center;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+  -ms-flex-pack: right;
+  justify-content: right;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+header nav ul li {
+  margin: 0px 40px;
+}
+
+header nav ul li a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: white;
+}
+
+header nav .bars {
+  width: 30px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+header nav .bars:hover {
+  cursor: pointer;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  border-color: #D4C17F;
+  color: #D4C17F;
+}
+
+header nav .bars .fa {
+  font-size: 26px;
+}
+
+header .headerTitle {
+  width: 100%;
+  position: relative;
+}
+
+header .headerTitle img {
+  width: 100%;
+}
+
+header .headerTitle .text {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  margin: auto !important;
+}
+
+header .headerTitle .text h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #D4C17F;
+  text-align: center;
+}
+
+header .headerTitle .text .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+header .headerTitle .text .flex .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0px 20px;
+  margin-top: 30px;
+}
+
+header .headerTitle .text .flex .box svg:hover path {
+  cursor: pointer;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  fill: #D4C17F;
+}
+
+header .headerTitle .text .flex .box p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: white;
+  margin-left: 15px;
+}
+
+main {
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(11.98%, #242B33));
+  background: -o-linear-gradient(top, #242B33 11.98%);
+  background: linear-gradient(180deg, #242B33 11.98%);
+}
+
+main .card {
+  padding-top: 120px;
+  text-align: center;
+}
+
+main .card svg:hover path {
+  cursor: pointer;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  fill: black;
+}
+
+main .card p.text {
+  padding-top: 50px;
+}
+
+.work {
+  width: 100%;
+  padding-top: 120px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(11.98%, #242B33));
+  background: -o-linear-gradient(top, #242B33 11.98%);
+  background: linear-gradient(180deg, #242B33 11.98%);
+}
+
+.work .img {
+  position: relative;
+  margin-top: 100px;
+}
+
+.work .img .kent {
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+}
+
+.center {
+  width: 100%;
+  background-image: url("../img/Rectangle\ 2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.center img {
+  position: relative;
+  width: 100%;
+}
+
+.center .left {
+  margin: 180px 0px;
+}
+
+.center .left p.text {
+  margin-top: 50px;
+}
+
+.center form {
+  margin: 240px 0px;
+}
+
+.center form input {
+  width: 180px;
+  height: 50px;
+  border: none;
+  text-align: center;
+  margin: 0px 30px;
+  background-color: #919090;
+}
+
+.center form input::-webkit-input-placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+  color: black;
+}
+
+.center form input::-moz-placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+  color: black;
+}
+
+.center form input:-ms-input-placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+  color: black;
+}
+
+.center form input::-ms-input-placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+  color: black;
+}
+
+.center form input::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+  color: black;
+}
+
+.center form input:focus {
+  outline: none;
+}
+
+.center form .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.center form .flex p.text {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  color: white;
+  text-align: center;
+}
+
+.center form .flex button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 27px;
+  color: white;
+  padding: 12px 50px;
+  background: #D4C17F;
+  border: none;
+}
+
+.center form .flex button:hover {
+  cursor: pointer;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  background-color: black;
+}
+
+.video {
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(11.98%, #242B33));
+  background: -o-linear-gradient(top, #242B33 11.98%);
+  background: linear-gradient(180deg, #242B33 11.98%);
+}
+
+.video .videoPlayer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.video .videoPlayer video {
+  width: 100%;
+}
+
+.video .videoPlayer .fa {
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  font-size: 30px;
+  color: white;
+  border-radius: 50%;
+  background: #d4c17f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.video .videoPlayer .fa:hover {
+  cursor: pointer;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.video .videoPlayer .fa-pause {
+  display: none;
+}
+
+.Anonim {
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(11.98%, #242B33));
+  background: -o-linear-gradient(top, #242B33 11.98%);
+  background: linear-gradient(180deg, #242B33 11.98%);
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+
+.Anonim iframe {
+  width: 100%;
+  padding-top: 100px;
+}
+
+.Anonim .card {
+  padding-top: 180px;
+}
+
+.Anonim .card form {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.Anonim .card form p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #e7e7e7;
+  text-align: center;
+}
+
+.Anonim .card form input {
+  width: 180px;
+  height: 50px;
+  border: none;
+  text-align: center;
+  margin: 0px 30px;
+  background-color: #919090;
+}
+
+.Anonim .card form input:focus {
+  outline: none;
+}
+
+.Anonim .card form input::-webkit-input-placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+  color: black;
+}
+
+.Anonim .card form input::-moz-placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+  color: black;
+}
+
+.Anonim .card form input:-ms-input-placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+  color: black;
+}
+
+.Anonim .card form input::-ms-input-placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+  color: black;
+}
+
+.Anonim .card form input::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+  color: black;
+}
+
+.Anonim .card form button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 27px;
+  color: white;
+  padding: 12px 50px;
+  background: #D4C17F;
+  border: none;
+}
+
+.Anonim .card form button:hover {
+  cursor: pointer;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  background-color: black;
+}
+
+footer {
+  width: 100%;
+  background: #2d343c;
+  padding-top: 80px;
+}
+
+footer .img {
+  margin-top: 10px;
+}
+
+footer p.title span {
+  color: #d4c17f;
+}
+
+footer .flex {
+  margin-top: 20px;
+}
+
+footer .flex svg {
+  margin: 0px 10px;
+}
+
+footer .flex svg:hover path {
+  cursor: pointer;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  fill: #d4c17f;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+p.text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 27px;
+  color: white;
+}
+
+h2.title {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #D4C17F;
+}
+
+p.title {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.12em;
+  text-align: left;
+  color: white;
+  margin: 15px 0px;
+}
+
+.activeBars {
+  display: none;
+}
+
+.activeMenuBars {
+  display: block;
+}
+
+@media (max-width: 991px) {
+  header nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  header nav ul li {
+    padding-bottom: 5px;
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 5px 0px;
+  }
+
+  header .headerTitle .text {
+    left: 20%;
+  }
+
+  .work .img img {
+    width: 100%;
+    padding: 0;
+  }
+
+  .center form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .center form input {
+    margin: 20px auto;
+  }
+
+  .center form .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .center form .flex button {
+    margin: 20px 0px;
+  }
+
+  .video .videoPlayer {
+    margin-top: 50px;
+  }
+
+  .Anonim .card form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .Anonim .card form input {
+    margin: 20px 0px;
+  }
+
+  footer .img {
+    text-align: center;
+  }
+
+  footer .img p.title {
+    text-align: center;
+  }
+
+  footer p.title {
+    text-align: center;
+  }
+
+  footer ul {
+    margin: 30px 0px;
+  }
+
+  footer .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .activeBars {
+    display: block;
+  }
+
+  .activeMenuBars {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  header .headerTitle .text {
+    left: 10%;
+  }
+
+  header .headerTitle .text h2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  header .headerTitle .text .flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  header .headerTitle .text .flex .box {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  p.text {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  h2.title {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
